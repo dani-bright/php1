@@ -12,6 +12,12 @@ class Migrations20191018 extends AbstractMigrations
             name VARCHAR(250),
             img VARCHAR(250)
         );
+        CREATE TABLE destination.country(
+            id TINYINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+            name VARCHAR(250),
+            city_id TINYINT UNSIGNED,
+            CONSTRAINT FK_CityCountry FOREIGN KEY (city_id) REFERENCES destination.city(id)
+        );
     ";
 
 }

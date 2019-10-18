@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f9a9145-6dd9-4664-81df-f8ce0fdf5ac2" name="Default Changelist" comment="" />
+    <list default="true" id="6f9a9145-6dd9-4664-81df-f8ce0fdf5ac2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/core/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/core/Container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/migration/Migrations20191018.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/migration/Migrations20191018.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/migration/Migrations20191019.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/migration/Migrations20191019.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/controller/AbstractController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/controller/AbstractController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/core/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/core/Container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/core/Router.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +24,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -21,8 +34,9 @@
   </component>
   <component name="ProjectId" id="1SHvZ9inY7S61wZ0hykQapsWtDC" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/api/migration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -58,10 +72,22 @@
       <updated>1571233388698</updated>
       <workItem from="1571233391565" duration="11769000" />
       <workItem from="1571386242271" duration="13788000" />
+      <workItem from="1571420414678" duration="448000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -10,6 +10,11 @@
                         $this->services['repository.city']()
                     );
                 },
+                'controller.countries' => function(){
+                    return new \App\api\controller\CountryController(
+                        $this->services['repository.country']()
+                    );
+                },
                 'controller.not.found' => function(){
                     return new \App\api\controller\NotFoundController();
                 },
@@ -21,6 +26,9 @@
                 },
                 'repository.city' => function(){
                     return new \App\api\repository\CityRepository($this->services['core.database']());
+                },
+                'repository.country' => function(){
+                    return new \App\api\repository\CountryRepository($this->services['core.database']());
                 },
             ];
 

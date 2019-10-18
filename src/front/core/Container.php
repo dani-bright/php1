@@ -7,6 +7,9 @@
                 'controller.homepage' => function(){
                     return new \App\front\controller\HomepageController();
                 },
+                'controller.countries' => function(){
+                    return new \App\front\controller\CountryController();
+                },
                 'controller.not.found' => function(){
                     return new \App\front\controller\NotFoundController();
                 }

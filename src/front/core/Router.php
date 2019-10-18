@@ -9,6 +9,10 @@
                 'controller' => 'controller.homepage',
                 'method' => 'index'
             ],
+            '#^/countries$#' => [
+                'controller' => 'controller.countries',
+                'method' => 'index'
+            ],
         ];
 
         private $route = [
